@@ -8,3 +8,6 @@ matches:
     replace: |
               __$|$__
               The right way to spend my time?
+
+  - trigger: ";guc" # Git commit with specified user and email
+    replace: git -c "user.name=Gregers Poulsen" -c "user.email=gp@airborneinstruments.dk"
